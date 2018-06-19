@@ -1,0 +1,154 @@
+
+/* ************************************************************************* */
+/* ------------------- React Laravel Gentelella Custom CSS ----------------- */
+/* ************************************************************************* */
+
+html {
+	font-size: 16px !important;
+}
+
+body {
+	font-family: $OpenSans;
+}
+
+.ui.navbar .ui.menu .item {
+	line-height: 1.65;
+	padding: 10px 5px;
+}
+
+.top_nav {
+    z-index: 101;
+    position: fixed;
+    width: 100vw;
+    top: 50px;
+
+	.navbar-right {
+		width: 100%;
+	}
+}
+
+.top-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	padding-left: 0;
+	padding-right: 0;
+
+	.navbar {
+		border-radius: 0;
+		border: none;
+		padding-right: 15px;
+	}
+}
+
+.main {
+	min-height: 300px;
+}
+
+	.main > .container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+.main_container {
+	padding-top: 50px;
+}
+
+.container.body {
+	width: calc(100vw + 30px);
+	margin-left: -15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+.btn-teal {
+    background-color: teal;
+    color: white;
+}
+
+.nav.navbar-nav li {
+    position: relative;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+
+    a {
+	    padding-top: 0;
+	    padding-bottom: 0;
+	    max-height: 50px;
+	    line-height: 50px;
+
+	    &:hover, &:focus {
+	    	background: transparent !important;
+	    }
+    }
+
+	a.user-profile {
+		padding-left: 50px !important;
+		position: relative !important;
+
+		.fa {
+			margin-left: 8px;
+		}
+
+		img {
+			width: 29px;
+			height: 29px;
+			border-radius: 50%;
+			position: absolute;
+			left: 10px;
+			top: 10px;
+		}
+	}
+}
+
+.navbar-brand {
+	padding: 6px 15px;
+
+	> img {
+	    height: 40px;
+	}
+}
+
+.navbar-inverse .nav.navbar-nav > li > a {
+    color: #d8d8d8 !important;
+}
+
+.navbar-default {
+	background: white;
+}
+
+.nav > li > a {
+	&:hover, &:focus {
+		background-color: transparent;
+	}
+}
+
+.left_col {
+	padding-top: 25px !important;
+}
+
+	.left_col .scroll-view {
+		width: 100% !important;
+	    height: calc(100vh - 115px);
+	}
+
+.right_col {
+    width: calc(100vw - 230px) !important;
+    padding-top: 0 !important;
+}
+
+/* forgot password */
+.login-form {
+	text-align: center;
+	vertical-align: middle;
+}
+
