@@ -29,9 +29,9 @@ https://github.com/sumityadavbadli/react-laravel-with-jwt-auth
 5. npm run dev
 
 # run locally:
-mysql.server start
-php artisan serve --port=8080
-npm run watch
+- mysql.server start
+- php artisan serve --port=8080
+- npm run watch
 
 # api examples:
 1. JWT authenticated request:
